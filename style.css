@@ -1,0 +1,121 @@
+body {
+    background-image: url("anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+    background-size: cover ;
+    
+}
+
+
+
+.navbar h1 {
+    color: beige;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+
+
+}
+
+
+.navbar {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+.navbar a {
+    text-decoration: none;
+
+
+}
+
+/* now we will design the navbar  */
+
+#about {
+    color: white;
+    position: absolute;
+    right: 450px;
+    top: 30px;
+}
+
+#shop {
+    color: white;
+    position: absolute;
+    right: 370px;
+    top: 30px;
+}
+
+#blog {
+    color: white;
+    position: absolute;
+    right: 290px;
+    top: 30px;
+}
+
+#contact {
+    color: white;
+    position: absolute;
+    right: 210px;
+    top: 30px;
+}
+
+#search{
+    border-radius: 5px;
+    width: 170px;
+    position: absolute;
+    right: 8px;
+    top: 26px;
+}
+
+a :hover {
+    color: green;
+}
+
+
+/* now the body  */
+
+#pump{
+    color: #EDA565;
+}
+
+
+.mainheading{
+    color: white;
+    margin-top: 500px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    bottom: 340px;
+}
+
+.mainheading p{
+    font-weight: lighter;
+    width: 400px;
+    font-size: 20px;
+}
+
+main a{
+    text-decoration: none;
+}
+
+#callbtn{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    left: 44px;
+    bottom: 290px;
+}
+
+#callbtn:hover{
+    color: #C72553;
+}
